@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  headquarter: one
+  brand_vp: 
+  code: 
+  model: MyString
+
+two:
+  headquarter: two
+  brand_vp: 
+  code: 
+  model: MyString
