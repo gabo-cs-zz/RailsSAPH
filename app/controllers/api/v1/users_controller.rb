@@ -5,7 +5,6 @@ class Api::V1::UsersController < ApiController
 
   def index
     @users = User.all
-    render json: { message: 'success', users: @users }, status: :ok
   end
 
   def genders
@@ -23,7 +22,6 @@ class Api::V1::UsersController < ApiController
   end
 
   def show
-    render json: {data: @user}, status: :ok
   end
 
   def update
